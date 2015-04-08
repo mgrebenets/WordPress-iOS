@@ -261,7 +261,6 @@
 		93E5283C19A7741A003A1A9C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5283B19A7741A003A1A9C /* NotificationCenter.framework */; };
 		93E5284119A7741A003A1A9C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5284019A7741A003A1A9C /* TodayViewController.swift */; };
 		93E5284319A7741A003A1A9C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E5284219A7741A003A1A9C /* MainInterface.storyboard */; };
-		93E5284619A7741A003A1A9C /* WordPressTodayWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 93E5283A19A7741A003A1A9C /* WordPressTodayWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		93E5285519A778AF003A1A9C /* WPDDLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5285419A778AF003A1A9C /* WPDDLogWrapper.m */; };
 		93E5285619A77BAC003A1A9C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5283B19A7741A003A1A9C /* NotificationCenter.framework */; };
 		93E9050719E6F3D8005513C9 /* TestContextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E9050619E6F3D8005513C9 /* TestContextManager.m */; };
@@ -469,20 +468,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		93E5284419A7741A003A1A9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93E5283919A7741A003A1A9C;
-			remoteInfo = WordPressTodayWidget;
-		};
-		93E5284719A7741A003A1A9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93E5283919A7741A003A1A9C;
-			remoteInfo = WordPressTodayWidget;
-		};
 		E16AB93E14D978520047A2E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -515,7 +500,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				93E5284619A7741A003A1A9C /* WordPressTodayWidget.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2865,8 +2849,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				93E5284519A7741A003A1A9C /* PBXTargetDependency */,
-				93E5284819A7741A003A1A9C /* PBXTargetDependency */,
 			);
 			name = WordPress;
 			productName = WordPress;
@@ -3663,16 +3645,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		93E5284519A7741A003A1A9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93E5283919A7741A003A1A9C /* WordPressTodayWidget */;
-			targetProxy = 93E5284419A7741A003A1A9C /* PBXContainerItemProxy */;
-		};
-		93E5284819A7741A003A1A9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93E5283919A7741A003A1A9C /* WordPressTodayWidget */;
-			targetProxy = 93E5284719A7741A003A1A9C /* PBXContainerItemProxy */;
-		};
 		E16AB93F14D978520047A2E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1D6058900D05DD3D006BFB54 /* WordPress */;
