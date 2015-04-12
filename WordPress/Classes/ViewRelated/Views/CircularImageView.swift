@@ -15,11 +15,11 @@ class CircularImageView : UIImageView
         layer.masksToBounds = true
     }
 
-    override init() {
-        super.init()
-
-        layer.masksToBounds = true
-    }
+//    override init() {
+//        super.init()
+//
+//        layer.masksToBounds = true
+//    }
 
     override var frame: CGRect {
         didSet {

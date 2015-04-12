@@ -19,11 +19,11 @@ import Foundation
     
     
     // MARK: - Initializers
-    public override init() {
-        super.init()
-        setupSubviews()
-    }
-    
+//    public override init() {
+//        super.init()
+//        setupSubviews()
+//    }
+
     public override init(frame: CGRect) {
         super.init(frame: frame)
         setupSubviews()

@@ -58,7 +58,7 @@ extension NotificationBlock
         
         var ranges = [NSValue: UIImage]()
         
-        for theMedia in media as [NotificationMedia] {
+        for theMedia in media as! [NotificationMedia] {
             if let image = mediaMap![theMedia.mediaURL] {
                 let rangeValue      = NSValue(range: theMedia.range)
                 ranges[rangeValue]  = image
@@ -87,7 +87,7 @@ extension NotificationBlock
         let theString = NSMutableAttributedString(string: text, attributes: regularStyle)
         theString.applyAttributesToQuotes(quotesStyle)
         
-        for range in ranges as [NotificationRange] {
+        for range in ranges as! [NotificationRange] {
             if range.isUser {
                 theString.addAttributes(userStyle, range: range.range)
             } else if range.isPost {
