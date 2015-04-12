@@ -35,6 +35,7 @@ pod 'Simperium', '0.7.7'
 pod 'Lookback', '0.9.2', :configurations => ['Release-Internal']
 pod "WordPress-AppbotX", :git => "https://github.com/wordpress-mobile/appbotx.git", :commit => "303b8068530389ea87afde38b77466d685fe3210"
 pod 'MRProgress', '~>0.7.0'
+pod 'Calabash', '~> 0.13.0'
 
 target 'WordPressTodayWidget', :exclusive => true do
     pod 'WordPressCom-Stats-iOS', '0.1.6'
